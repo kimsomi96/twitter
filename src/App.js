@@ -10,8 +10,8 @@ function App() {
       <h1></h1>
 
     <Sidebar/>
-    <Feed/>
-    <Widgets/>
+    <Feed className="feed"/>
+    <Widgets className="widgets"/>
     </div>
   )
 }
